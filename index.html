@@ -1,37 +1,70 @@
----
-layout: default
-title: Home
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fatemeh Doudi - Resume</title>
+    <link rel="stylesheet" href="public/css/lanyon.css">
+</head>
+<body class="theme-base-0d">
+    <header>
+        <h1>Fatemeh Doudi</h1>
+        <p>Ph.D. Student in Electrical Engineering<br>
+        Texas A&M University, College Station, TX</p>
+        <p>
+            <a href="mailto:fatemehdoudi@tamu.edu">fatemehdoudi@tamu.edu</a> | 
+            <a href="https://linkedin.com/in/fatemeh-doudi-a44689262/">LinkedIn</a> | 
+            <a href="https://github.com/fatemehdoudi">GitHub</a>
+        </p>
+    </header>
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>Ph.D. in Electrical Engineering</strong>, Texas A&M University (2023 – Present) - GPA: 4.0/4.0</li>
+            <li><strong>M.Sc. in Electrical Engineering</strong>, Sharif University of Technology (2020 – 2022) - GPA: 17.78/20</li>
+            <li><strong>B.Sc. in Electrical Engineering</strong>, Sharif University of Technology (2015 – 2019) - GPA: 16.77/20</li>
+        </ul>
+    </section>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <section id="research">
+        <h2>Research Interests</h2>
+        <ul>
+            <li>Deep Learning, Generative AI, Transformer Models, In-Context Learning</li>
+            <li>Reinforcement Learning, Multi-Arm Bandits</li>
+            <li>Stochastic Modeling, Queueing Theory, Game Theory</li>
+        </ul>
+    </section>
 
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li><strong>Transformers Learns Mixture of Experts In-Context</strong> (Jan 2024 – Aug 2024) - Texas A&M University</li>
+            <li><strong>Exploring the capabilities of large language models in the electric energy sector</strong> (Jan 2024 – Mar 2024)</li>
+            <li><strong>Delay Analysis of Full Parallelization Distributed Computing</strong> (Jun 2023 – Aug 2023) - Sharif University of Technology</li>
+            <li><strong>Impact of Simulated Climate Data on Wind Power Prediction</strong> (Jun 2023 – Aug 2023) - Texas A&M University</li>
+        </ul>
+    </section>
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming: Python, MATLAB, C/C++</li>
+            <li>Methodologies: Machine Learning, Deep Learning, Generative Models, Queueing Theory</li>
+        </ul>
+    </section>
+
+    <section id="achievements">
+        <h2>Achievements and Awards</h2>
+        <ul>
+            <li>ECEN Merit Fellowship, Texas A&M University</li>
+            <li>Ranked 4th in M.Sc. National Entrance Exam (20,000 participants)</li>
+            <li>Ranked 57th in B.Sc. National Entrance Exam (180,000 participants)</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>Copyright © 2024 Fatemeh Doudi</p>
+    </footer>
+</body>
+</html>
