@@ -12,7 +12,7 @@ Hello! I’m **Fatemeh Doudi**, a Ph.D. student in the Department of Electrical 
 
 Previously, I earned my Master’s degree from **Sharif University of Technology** in Tehran, Iran. There, I worked on **delay analysis in distributed computing** under the supervision of **[Prof. Farid Ashtiani](https://sharif.edu/~ashtianimt/)** and **[Prof. Mohammad Ali Maddah-Ali](https://maddah.umn.edu/)**.
 
-You can download my CV from **[here]()**. 
+You can download my CV from **[here](Resume.pdf)**. 
 
 ## News
 - **[June 2024]**: Our paper, *"Exploring the Capabilities and Limitations of Large Language Models in the Electric Energy Sector,"* is now published in **Joule**.
