@@ -9,6 +9,6 @@ redirect_from:
 
 Hi!
 
-News
+News:
 ======
 blah blah
