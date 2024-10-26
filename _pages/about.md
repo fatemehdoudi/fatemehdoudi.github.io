@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: " "
+title: "About Me"
+excerpt: "About Me"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
----
+---   
 
-Hi!
-
+Hello! 
 ## News
-blah blah
+- **[Sep 2024]** a b c
