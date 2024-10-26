@@ -10,5 +10,4 @@ redirect_from:
 Hi!
 
 ## News
-======
 blah blah
