@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in in Electrical Engineering, Texas A&M University, 2027 (Expected)
+* M.Sc. in Electrical Engineering - Communication Systems, Sharif University of Technology, 2022
+* B.Sc. in Electrical Engineering - Communication Systems, Sharif University of Technology, 2020
 
 Work experience
 ======
