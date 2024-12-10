@@ -15,5 +15,7 @@ Previously, I earned my Master’s degree from **Sharif University of Technology
 You can download my CV from **[here](Resume.pdf)**. 
 
 ## News
+- **[Oct 2024]**: I presented our paper, *"Impact of Simulated Climate Data on Wind Power Prediction and Long-Term Grid Planning"* in NAPS 2024!
 - **[June 2024]**: Our paper, *"Exploring the Capabilities and Limitations of Large Language Models in the Electric Energy Sector,"* is now published in **Joule**.
+
  
