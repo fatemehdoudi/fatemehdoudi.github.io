@@ -82,38 +82,36 @@
   text-decoration: underline;
 }
 
-/* Expand content width slightly */
+/* === Force full-width publications text area === */
+
+/* override Minimal Mistakes inner wrapper */
 .page,
+.page__inner-wrap,
 .page__content,
-.archive {
-  max-width: 1050px;
-  margin: 0 auto;
-}
-
-/* === WIDEN PUBLICATIONS TEXT COLUMN === */
-
-/* widen the entire content area beside the sidebar */
-.page__inner-wrap {
-  display: grid !important;
-  grid-template-columns: 250px minmax(0, 1fr) !important;  /* left sidebar fixed, right flexible */
-  column-gap: 2.5rem !important;                           /* keep some spacing */
-}
-
-/* make the right content wider */
-.page__content {
-  max-width: 1200px !important;  /* this directly controls text width */
+.archive,
+.wrap {
+  max-width: 1400px !important;   /* widen total text area */
   width: 100% !important;
+  margin: 0 auto !important;
+  padding: 0 2rem !important;
 }
 
-/* let the publication text use full available width */
+/* make publication text expand fully */
 .pub-details {
   max-width: none !important;
   width: 100% !important;
 }
 
-/* prevent the overall container from shrinking */
-.wrap {
-  max-width: 1300px !important;
-  margin: 0 auto !important;
+/* slightly space image and text */
+.publication {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
 }
 
+/* enlarge image slightly for balance */
+.pub-image {
+  width: 240px;
+  height: auto;
+  flex-shrink: 0;
+}
