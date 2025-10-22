@@ -89,3 +89,31 @@
   max-width: 1050px;
   margin: 0 auto;
 }
+
+/* === WIDEN PUBLICATIONS TEXT COLUMN === */
+
+/* widen the entire content area beside the sidebar */
+.page__inner-wrap {
+  display: grid !important;
+  grid-template-columns: 250px minmax(0, 1fr) !important;  /* left sidebar fixed, right flexible */
+  column-gap: 2.5rem !important;                           /* keep some spacing */
+}
+
+/* make the right content wider */
+.page__content {
+  max-width: 1200px !important;  /* this directly controls text width */
+  width: 100% !important;
+}
+
+/* let the publication text use full available width */
+.pub-details {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* prevent the overall container from shrinking */
+.wrap {
+  max-width: 1300px !important;
+  margin: 0 auto !important;
+}
+
