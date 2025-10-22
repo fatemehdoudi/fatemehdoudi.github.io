@@ -7,4 +7,5 @@ excerpt: "This paper proposes a method for inference-time alignment of diffusion
 date: 2025-05-24
 venue: "arXiv (pre-print)"
 paperurl: "https://arxiv.org/abs/2505.18547"
+image: "/images/publications/diffusion_blend_thumb.png"
 ---
