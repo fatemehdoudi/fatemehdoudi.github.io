@@ -7,5 +7,4 @@ excerpt: "This paper proposes a method for inference-time alignment of diffusion
 date: 2025-05-24
 venue: "arXiv (pre-print)"
 paperurl: "https://arxiv.org/abs/2505.18547"
-citation: "Min Cheng, Fatemeh Doudi, Dileep Kalathil, Mohammad Ghavamzadeh, Panganamala R. Kumar. (2025). \"Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models.\" arXiv:2505.18547."
 ---
