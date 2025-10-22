@@ -70,3 +70,16 @@
 .pub-details h2 a:hover {
   text-decoration: underline;
 }
+
+/* widen Minimal Mistakes content column */
+.page__content,
+.archive {
+  max-width: 1000px;        /* was ~720px */
+}
+
+/* center it neatly */
+.wrap {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
