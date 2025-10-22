@@ -36,40 +36,39 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* === FIX SIDEBAR OVERLAP + WIDEN TEXT AREA === */
+/* === APPLY ONLY TO PUBLICATIONS PAGE === */
 
-/* restore a two-column layout: fixed sidebar + flexible content */
-.page__inner-wrap {
+/* target only pages that have the "publications-layout" class */
+.page__inner-wrap.publications-layout {
   display: grid !important;
-  grid-template-columns: 280px minmax(0, 1fr);  /* sidebar fixed width, main content expands */
-  column-gap: 3rem;                             /* space between sidebar and content */
+  grid-template-columns: 280px minmax(0, 1fr);
+  column-gap: 3rem;
   align-items: start;
 }
 
-/* make content area wide, but stay right of sidebar */
-.page__content {
-  max-width: 1100px !important;  /* controls text width */
+/* wider main column */
+.page__inner-wrap.publications-layout .page__content {
+  max-width: 1100px !important;
   width: 100% !important;
 }
 
-/* let publication text flow fully across its column */
-.pub-details {
+/* let publication text use full width */
+.page__inner-wrap.publications-layout .pub-details {
   max-width: none !important;
   width: 100% !important;
 }
 
-/* layout for each publication */
-.publication {
+/* individual publication entry layout */
+.page__inner-wrap.publications-layout .publication {
   display: flex;
   align-items: flex-start;
   gap: 1.5rem;
   margin-bottom: 2.5rem;
 }
 
-/* adjust image */
-.pub-image {
+/* image style */
+.page__inner-wrap.publications-layout .pub-image {
   width: 220px;
   height: auto;
   flex-shrink: 0;
 }
-
