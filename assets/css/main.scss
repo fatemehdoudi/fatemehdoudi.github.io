@@ -115,3 +115,40 @@
   height: auto;
   flex-shrink: 0;
 }
+/* === FIX SIDEBAR OVERLAP + WIDEN TEXT AREA === */
+
+/* restore a two-column layout: fixed sidebar + flexible content */
+.page__inner-wrap {
+  display: grid !important;
+  grid-template-columns: 280px minmax(0, 1fr);  /* sidebar fixed width, main content expands */
+  column-gap: 3rem;                             /* space between sidebar and content */
+  align-items: start;
+}
+
+/* make content area wide, but stay right of sidebar */
+.page__content {
+  max-width: 1100px !important;  /* controls text width */
+  width: 100% !important;
+}
+
+/* let publication text flow fully across its column */
+.pub-details {
+  max-width: none !important;
+  width: 100% !important;
+}
+
+/* layout for each publication */
+.publication {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+/* adjust image */
+.pub-image {
+  width: 220px;
+  height: auto;
+  flex-shrink: 0;
+}
+
