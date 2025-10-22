@@ -39,3 +39,36 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+
+
+.publication {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.pub-image {
+  width: 120px;
+  height: auto;
+  margin-right: 1rem;
+  border-radius: 8px;
+}
+
+.pub-details {
+  flex: 1;
+}
+
+.pub-details h2 {
+  margin-top: 0;
+  margin-bottom: 0.4rem;
+}
+
+.pub-details h2 a {
+  text-decoration: none;
+  color: #0074a1;
+}
+
+.pub-details h2 a:hover {
+  text-decoration: underline;
+}
