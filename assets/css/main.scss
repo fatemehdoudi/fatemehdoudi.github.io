@@ -2,13 +2,9 @@
 ---
 
 /*
- *    Minimal Mistakes Jekyll Theme
- *
- *  - Michael Rose
- *  - mademistakes.com
- *  - https://twitter.com/mmistakes
- *
-*/
+ * Minimal Mistakes Jekyll Theme
+ * Custom styling for wider publications layout with images
+ */
 
 @import "vendor/breakpoint/breakpoint"; // media query mixins
 @import "variables";
@@ -40,23 +36,37 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
+/* === Publications layout customization === */
+
+/* Maintain two-column layout, but give main content more horizontal room */
+.page__inner-wrap {
+  display: grid !important;
+  grid-template-columns: 280px 1fr;  /* wider right column */
+  gap: 3rem;                         /* space between sidebar and content */
+  align-items: start;
+}
+
+/* Each publication entry */
 .publication {
   display: flex;
-  align-items: center;     /* vertically center image with title */
+  align-items: center;               /* vertically center image + text */
+  gap: 1.8rem;
   margin-bottom: 2.5rem;
 }
 
+/* Publication image (thumbnail) */
 .pub-image {
-  width: 200px;            /* keep your larger image */
-  flex-shrink: 0;          /* prevent image from shrinking */
-  margin-right: 1.5rem;
+  width: 220px;                      /* bigger image */
+  height: auto;
+  flex-shrink: 0;
+  border-radius: 6px;
 }
 
+/* Publication text area */
 .pub-details {
   flex: 1;
-  max-width: 800px;        /* keeps text column from being too narrow */
+  max-width: 800px;
 }
-
 
 .pub-details h2 {
   margin-top: 0;
@@ -72,44 +82,10 @@
   text-decoration: underline;
 }
 
-/* widen Minimal Mistakes content column */
+/* Expand content width slightly */
+.page,
 .page__content,
 .archive {
-  max-width: 1000px;        /* was ~720px */
-}
-
-/* center it neatly */
-.wrap {
-  max-width: 1100px;
+  max-width: 1050px;
   margin: 0 auto;
-}
-/* Force full-width content inside Minimal Mistakes containers */
-.page__inner-wrap,
-.page__content,
-.archive,
-.wrap {
-  max-width: 1150px !important;
-  width: 100% !important;
-  margin: 0 auto !important;
-  padding-right: 2rem;
-  padding-left: 2rem;
-}
-
-/* Keep image + text nicely balanced */
-.publication {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-  gap: 1.8rem;
-  width: 100%;
-}
-
-.pub-image {
-  width: 220px;      /* slightly bigger image */
-  flex-shrink: 0;
-}
-
-.pub-details {
-  flex: 1;
-  max-width: none;   /* let it use full horizontal room */
 }
