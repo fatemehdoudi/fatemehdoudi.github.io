@@ -36,39 +36,18 @@
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
-/* === APPLY ONLY TO PUBLICATIONS PAGE === */
-
-/* target only pages that have the "publications-layout" class */
-.page__inner-wrap.publications-layout {
-  display: grid !important;
-  grid-template-columns: 280px minmax(0, 1fr);
-  column-gap: 3rem;
-  align-items: start;
-}
-
-/* wider main column */
+/* === FORCE FULL-WIDTH TEXT FOR PUBLICATIONS PAGE ONLY === */
 .page__inner-wrap.publications-layout .page__content {
-  max-width: 1100px !important;
-  width: 100% !important;
-}
-
-/* let publication text use full width */
-.page__inner-wrap.publications-layout .pub-details {
   max-width: none !important;
   width: 100% !important;
+  padding-right: 2rem;  /* optional: small right margin */
 }
 
-/* individual publication entry layout */
-.page__inner-wrap.publications-layout .publication {
-  display: flex;
-  align-items: flex-start;
-  gap: 1.5rem;
-  margin-bottom: 2.5rem;
+/* optional: slightly wider overall content region */
+.page__inner-wrap.publications-layout {
+  display: grid !important;
+  grid-template-columns: 260px minmax(0, 1fr);
+  column-gap: 3rem;
 }
 
-/* image style */
-.page__inner-wrap.publications-layout .pub-image {
-  width: 220px;
-  height: auto;
-  flex-shrink: 0;
-}
+
