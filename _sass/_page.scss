@@ -399,3 +399,23 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/* === CUSTOM OVERRIDE FOR PUBLICATIONS PAGE === */
+.page__inner-wrap.publications-layout .page__content {
+  max-width: none !important;     // remove the Susy constraint
+  width: 100% !important;         // let it expand to fill the grid area
+  padding-right: 2rem;            // small breathing room on right edge
+}
+
+/* widen the grid layout for the sidebar + main area */
+.page__inner-wrap.publications-layout {
+  display: grid !important;
+  grid-template-columns: 260px minmax(0, 1fr);
+  column-gap: 3rem;
+}
+
+/* optional: align “Publications” title and content neatly */
+.page__inner-wrap.publications-layout .page__title {
+  margin-left: 0;                 // aligns with the start of text
+}
+
