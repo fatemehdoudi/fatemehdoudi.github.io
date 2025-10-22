@@ -7,4 +7,5 @@ excerpt: "This paper investigates how large language models (LLMs) perform in el
 date: 2024-03-14
 venue: "Joule"
 paperurl: "https://www.cell.com/joule/fulltext/S2542-4351(24)00237-X"
+image: "/images/publications/paper3.png"
 ---
