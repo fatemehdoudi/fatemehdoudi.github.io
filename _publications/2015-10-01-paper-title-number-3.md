@@ -5,7 +5,6 @@ category: manuscripts
 permalink: /publication/2024-03-14-exploring-llms-electric-energy
 excerpt: "This paper investigates how large language models (LLMs) perform in electric-energy systems tasks—identifying both their promise and their limitations for this safety-critical domain."
 date: 2024-03-14
-venue: "arXiv (pre-print)"
-paperurl: "https://arxiv.org/abs/2403.09125
-"
+venue: "Joule"
+paperurl: "https://www.cell.com/joule/fulltext/S2542-4351(24)00237-X"
 ---
