@@ -35,19 +35,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-/* === FORCE FULL-WIDTH TEXT FOR PUBLICATIONS PAGE ONLY === */
-.page__inner-wrap.publications-layout .page__content {
-  max-width: none !important;
-  width: 100% !important;
-  padding-right: 2rem;  /* optional: small right margin */
-}
-
-/* optional: slightly wider overall content region */
-.page__inner-wrap.publications-layout {
-  display: grid !important;
-  grid-template-columns: 260px minmax(0, 1fr);
-  column-gap: 3rem;
-}
-
-
