@@ -7,5 +7,5 @@ excerpt: "This paper introduces a deep state-space modelling approach and accomp
 date: 2024-12-11
 venue: "arXiv (pre-print)"
 paperurl: "https://arxiv.org/abs/2412.06112"
-image: "/images/publications/paper2.png"
+image: "/images/publications/paper2.jpg"
 ---
