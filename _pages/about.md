@@ -12,9 +12,10 @@ Hello! I’m **Fatemeh Doudi**, a Ph.D. student in the Department of Electrical 
 
 Previously, I earned my Master’s degree from **Sharif University of Technology** in Tehran, Iran. There, I worked on **delay analysis in distributed computing** under the supervision of **[Prof. Farid Ashtiani](https://sharif.edu/~ashtianimt/)** and **[Prof. Mohammad Ali Maddah-Ali](https://maddah.umn.edu/)**.
 
-You can download my CV from **[here](Resume.pdf)**. 
+You can download my CV from **[here](Resume.pdf)**. A slides overview of my research is available **[here](files/MyResearch.pdf)**.
 
 ## News
+- **[March 2026]**: Our paper *"Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages"* is now available on arXiv!
 - **[Jan 2026]**: Our paper *“Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models”* has been accepted to **ICLR 2026**.
 - **[Dec 2025]**: Our paper *“PowerMamba: A Deep State Space Model and Comprehensive Benchmark for Time Series Prediction in Electric Power Systems”* has been accepted for publication in **IEEE Transactions on Power Systems**.
 - **[May 2025]**: Our paper “Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models” is now available on arXiv!
