@@ -15,6 +15,7 @@ Previously, I earned my Master’s degree from **Sharif University of Technology
 You can download my CV from **[here](Resume.pdf)**. A slides overview of my research is available **[here](MyResearch.pdf)**.
 
 ## News
+- **[March 2026]**: Our paper “Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages” was accepted to the **Non-AR LM Workshop at COLM 2026**!
 - **[March 2026]**: Our paper *"Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages"* is now available on arXiv!
 - **[Jan 2026]**: Our paper *“Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models”* has been accepted to **ICLR 2026**.
 - **[Dec 2025]**: Our paper *“PowerMamba: A Deep State Space Model and Comprehensive Benchmark for Time Series Prediction in Electric Power Systems”* has been accepted for publication in **IEEE Transactions on Power Systems**.
