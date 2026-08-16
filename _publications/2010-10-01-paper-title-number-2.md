@@ -4,7 +4,7 @@ collection: publications
 category: manuscripts
 permalink: /publication/2024-12-11-powermamba
 excerpt: "This paper introduces a deep state-space modelling approach and accompanying benchmark for multivariate time-series prediction in electric power systems, integrating high-resolution external forecasts and traditional dynamical structure."
-date: 2024-12-11
+date: 2025
 venue: "IEEE Transaction on Power System"
 paperurl: "https://arxiv.org/abs/2412.06112"
 image: "/images/publications/paper2.jpg"
