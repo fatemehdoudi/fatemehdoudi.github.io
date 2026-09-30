@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2026-03-13-egspo
 excerpt: "This paper introduces EGSPO, an efficient reinforcement learning method for diffusion language models that uses entropy-guided denoising step selection and stepwise advantages to improve reasoning and code generation."
 venue: "NeurIPS"
-date: 2026
+date: 2026-01-01
 image: "/images/publications/web_egspo.png"
 paperurl: "https://arxiv.org/abs/2603.12554"
 ---
