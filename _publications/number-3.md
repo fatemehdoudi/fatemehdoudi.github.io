@@ -5,6 +5,7 @@ category: manuscripts
 permalink: /publication/2025-05-24-diffusion-blend
 excerpt: "This paper proposes a method for inference-time alignment of diffusion models to multiple, possibly conflicting, user-specified preferences (rewards) without additional fine-tuning."
 venue: "ICLR 2026"
+year: 2026
 image: "/images/publications/paper1.jpg"
 paperurl: "https://arxiv.org/abs/2505.18547"
 ---
