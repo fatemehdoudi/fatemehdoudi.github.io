@@ -27,7 +27,7 @@
       </h2>
 
       {% if post.collection == 'publications' %}
-        <p><em>{{ post.venue }}</em>, {{ post.date | default: "1900-01-01" | date: "%Y" }}</p>
+        <p><em>{{ post.venue }}</em>{% if post.year %}, {{ post.year }}{% elsif post.date %}, {{ post.date | date: "%Y" }}{% endif %}</p>
       {% endif %}
 
       {% if post.excerpt %}
