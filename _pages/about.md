@@ -15,6 +15,7 @@ Previously, I earned my Master’s degree from **Sharif University of Technology
 You can download my CV from **[here](Resume.pdf)**. A slides overview of my research is available **[here](MyResearch.pdf)**.
 
 ## News
+- **[Sep 2026]**: Our paper “AgentDiscover: Autonomous Discovery with Minimal Search Scaffolding” is now available on [arXiv](https://arxiv.org/abs/2610.05334)!
 - **[Sep 2026]**: Our paper “Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages” is accepted to the **NeurIPS 2026**! 
 - **[July 2026]**: Our paper “Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages” was accepted to the **Non-AR LM Workshop at COLM 2026**!
 - **[March 2026]**: Our paper *"Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages"* is now available on arXiv!
