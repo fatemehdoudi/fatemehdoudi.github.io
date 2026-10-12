@@ -18,11 +18,8 @@ You can download my CV from **[here](Resume.pdf)**. A slides overview of my rese
 - **[Sep 2026]**: Our paper “AgentDiscover: Autonomous Discovery with Minimal Search Scaffolding” is now available on [arXiv](https://mhdfb.github.io/AgentDiscover/)!
 - **[Sep 2026]**: Our paper “Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages” is accepted to the **NeurIPS 2026**! 
 - **[July 2026]**: Our paper “Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages” was accepted to the **Non-AR LM Workshop at COLM 2026**!
-- **[March 2026]**: Our paper *"Reinforcement Learning for Diffusion LLMs with Entropy-Guided Step Selection and Stepwise Advantages"* is now available on arXiv!
 - **[Jan 2026]**: Our paper *“Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models”* has been accepted to **ICLR 2026**.
 - **[Dec 2025]**: Our paper *“PowerMamba: A Deep State Space Model and Comprehensive Benchmark for Time Series Prediction in Electric Power Systems”* has been accepted for publication in **IEEE Transactions on Power Systems**.
-- **[May 2025]**: Our paper “Diffusion Blend: Inference-Time Multi-Preference Alignment for Diffusion Models” is now available on arXiv!
-- **[Dec 2024]**:Our paper “PowerMamba: A Deep State Space Model and Comprehensive Benchmark for Time Series Prediction in Electric Power Systems” is now on arXiv!
 - **[Oct 2024]**: I presented our paper, *"Impact of Simulated Climate Data on Wind Power Prediction and Long-Term Grid Planning"* in NAPS 2024!
 - **[June 2024]**: Our paper, *"Exploring the Capabilities and Limitations of Large Language Models in the Electric Energy Sector,"* is now published in Joule.
 
