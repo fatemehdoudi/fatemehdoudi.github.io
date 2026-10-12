@@ -7,5 +7,5 @@ excerpt: "This paper introduces AgentDiscover, a framework that lets a coding ag
 venue: "arXiv preprint"
 date: 2026-10-04
 image: "/images/publications/web_agentdiscover.png"
-paperurl: "(https://mhdfb.github.io/AgentDiscover/)"
+paperurl: "https://mhdfb.github.io/AgentDiscover/"
 ---
